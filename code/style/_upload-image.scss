@@ -1,0 +1,13 @@
+.upload-image {}
+.upload-image__cover {
+	margin: 2px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: grey;
+
+    .icon {
+       font-size: 18px;
+    }
+}

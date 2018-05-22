@@ -1,0 +1,18 @@
+.followers {
+    position: absolute;
+    display: flex;
+	bottom: 0;
+	right: 0;
+	padding: 15px 20px;
+
+	.icon {
+		font-size: 30px;
+        margin: 0 10px;
+        margin-bottom: -6px;
+	}
+	#followers__count {
+		font-size: 16px;
+        font-weight: 600;
+        margin: 0 7px;
+	}
+}

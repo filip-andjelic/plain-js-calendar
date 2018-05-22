@@ -1,0 +1,17 @@
+.control-tabs {
+    position: absolute;
+    display: flex;
+    width: 100%;
+	bottom: -5px;
+	padding-left: calc(#{$image-size} + 40px);
+	border-top: 1px solid #e3e3e3;
+	z-index: 2;
+	box-sizing: border-box;
+
+	.control-tabs__item {
+	    padding: 10px 10px 15px 10px;
+        text-transform: uppercase;
+        line-height: 28px;
+        font-size: 16px;
+	}
+}

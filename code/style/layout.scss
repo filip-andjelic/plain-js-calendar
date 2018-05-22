@@ -10,6 +10,9 @@
 .flex-wrap {
   flex-wrap: wrap;
 }
+.flex-column {
+  flex-direction: column;
+}
 .padding-15 {
   padding: 15px;
 }
@@ -22,7 +25,10 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 65px;
-  background-color: red;
+  background-color: #eaeaea;
+}
+.controls-info-wrapper {
+  position: relative;
 }
 .full-flex-box {
   display: flex;

@@ -6,6 +6,9 @@
     padding: 10px 20px;
     font-size: 16px;
     color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 
     .icon {
        font-size: 18px;

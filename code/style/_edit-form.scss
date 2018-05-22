@@ -1,0 +1,33 @@
+.edit-form {
+    margin-top: 25px;
+
+    .edit-form__item {
+        margin-bottom: 7px;
+        display: flex;
+        align-items: stretch;
+
+		.edit-form__item__value {
+			background-color: $input-background-color;
+		    padding: 7px;
+		}
+        .icon:last-child {
+            font-size: 22px;
+            padding: 5px;
+            background: #eaeaea;
+        }
+        .icon:first-child {
+			background-color: $input-background-color;
+            padding: 0 5px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+    }
+    #profile-name {
+        .edit-form__item__value {
+            font-size: 18px;
+            font-weight: 600;
+            padding: 6px 7px 5px 0;
+        }
+    }
+}

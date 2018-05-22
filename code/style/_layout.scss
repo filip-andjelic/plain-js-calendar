@@ -1,3 +1,12 @@
+body {
+	min-height: 470px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-y: auto;
+	height: 100vh;
+	background-color: $body-background-color;
+}
 .flex {
   display: flex;
 }
@@ -22,13 +31,22 @@
 .application-wrapper {
   max-width: 1170px;
   width: 1170px;
-  display: flex;
+  //display: flex;
   flex-wrap: wrap;
-  margin-top: 65px;
-  background-color: #eaeaea;
+  margin-top: 75px;
 }
 .controls-info-wrapper {
   position: relative;
+  background-color: $box-background-color;
+}
+.content-edit-wrapper {
+    margin-top: 40px;
+    background-color: $box-background-color;
+    padding: 40px;
+}
+.content-title {
+	flex: 0 0 100%;
+    font-size: 28px;
 }
 .full-flex-box {
   display: flex;
